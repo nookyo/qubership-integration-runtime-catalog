@@ -29,7 +29,7 @@ on:
 
 jobs:
   build-and-push:
-    uses: owner/workflow-hub/.github/workflows/build-and-push-docker-image.yaml@main
+    uses: nookyo/workflow-hub/.github/workflows/build-and-push-docker-image.yaml@main
     with:
       branch: main 
       build_command: "mvn clean package"
